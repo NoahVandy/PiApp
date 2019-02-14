@@ -27,6 +27,8 @@ namespace PiApp
             double denom = 1;
             for(int i = 0; i < input; i++)
             {
+                //this will increase the denom by 2 depending on if it is a positive or negative 
+                //and it will siwtch the sign 
                 if (denom > 0)
                 {
                     denom = (denom + 2) * -1;
@@ -37,6 +39,7 @@ namespace PiApp
                 }
                 pi = (4 / denom) + pi;
             }
+            //this is what displays in the text box
             txtbx_output.Text = pi.ToString();
             
         }

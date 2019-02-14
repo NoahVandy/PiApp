@@ -38,40 +38,41 @@
             // lbl_input
             // 
             this.lbl_input.AutoSize = true;
-            this.lbl_input.Location = new System.Drawing.Point(109, 182);
+            this.lbl_input.Location = new System.Drawing.Point(63, 151);
             this.lbl_input.Name = "lbl_input";
-            this.lbl_input.Size = new System.Drawing.Size(78, 32);
+            this.lbl_input.Size = new System.Drawing.Size(260, 64);
             this.lbl_input.TabIndex = 0;
-            this.lbl_input.Text = "Input";
+            this.lbl_input.Text = "Input how accurate \r\nyou want Pi to be";
             // 
             // txtbx_input
             // 
-            this.txtbx_input.Location = new System.Drawing.Point(218, 179);
+            this.txtbx_input.Location = new System.Drawing.Point(329, 177);
             this.txtbx_input.Name = "txtbx_input";
             this.txtbx_input.Size = new System.Drawing.Size(284, 38);
             this.txtbx_input.TabIndex = 1;
             // 
             // btn_calculate
             // 
-            this.btn_calculate.Location = new System.Drawing.Point(218, 286);
+            this.btn_calculate.BackColor = System.Drawing.Color.LightCyan;
+            this.btn_calculate.Location = new System.Drawing.Point(329, 284);
             this.btn_calculate.Name = "btn_calculate";
             this.btn_calculate.Size = new System.Drawing.Size(284, 97);
             this.btn_calculate.TabIndex = 2;
             this.btn_calculate.Text = "CalcuLATER";
-            this.btn_calculate.UseVisualStyleBackColor = true;
+            this.btn_calculate.UseVisualStyleBackColor = false;
             this.btn_calculate.Click += new System.EventHandler(this.btn_calculate_Click);
             // 
             // txtbx_output
             // 
-            this.txtbx_output.Location = new System.Drawing.Point(218, 452);
+            this.txtbx_output.Location = new System.Drawing.Point(329, 450);
             this.txtbx_output.Name = "txtbx_output";
-            this.txtbx_output.Size = new System.Drawing.Size(473, 38);
+            this.txtbx_output.Size = new System.Drawing.Size(284, 38);
             this.txtbx_output.TabIndex = 4;
             // 
             // lbl_output
             // 
             this.lbl_output.AutoSize = true;
-            this.lbl_output.Location = new System.Drawing.Point(109, 455);
+            this.lbl_output.Location = new System.Drawing.Point(220, 453);
             this.lbl_output.Name = "lbl_output";
             this.lbl_output.Size = new System.Drawing.Size(56, 32);
             this.lbl_output.TabIndex = 3;
@@ -81,7 +82,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 735);
+            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ClientSize = new System.Drawing.Size(823, 735);
             this.Controls.Add(this.txtbx_output);
             this.Controls.Add(this.lbl_output);
             this.Controls.Add(this.btn_calculate);
